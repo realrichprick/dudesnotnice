@@ -148,10 +148,25 @@ audio.addEventListener("ended", function() {
     nextAudio();
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    // Scroll to the top when the page loads
+    window.scrollTo(0, 0);
+    
+    // Initially disable body scroll
+    document.body.classList.add("no-scroll");
+
+    // Add event listener to the overlay
+    document.getElementById("overlays").addEventListener("click", function() {
+        playMedia();
+    });
+});
+
 function playMedia() {
     audio.play();
     document.getElementById("overlays").classList.add("fade-out");
+    document.body.classList.remove("no-scroll"); // Enable scrolling when overlay fades out
 }
+
 
 
 function togglePlayPause() {
