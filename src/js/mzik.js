@@ -134,7 +134,37 @@ song: "DEGENERATE FUCK"
 {
     src: "https://files.catbox.moe/jgluqi.mp3",
     artist: "Amzz",
-    song: "RED"
+    song: "RED",
+},
+{
+    src: "https://files.catbox.moe/mdl416.mp3",
+    artist: "South Park Mexican",
+    song: "Filthy Rich",
+},
+{
+    src: "https://files.catbox.moe/pje059.mp3",
+    artist: "South Park Mexican",
+    song: "Bloody War",
+},
+{
+    src: "https://files.catbox.moe/f0linw.mp3",
+    artist: "The Rah Band",
+    song: "Messages from the stars",
+},
+{
+    src: "https://files.catbox.moe/9l03ia.mp3",
+    artist: "Ace of Base",
+    song: "Happy Nation",
+},
+{
+    src: "https://files.catbox.moe/8tz0vs.mp3",
+    artist: "Baby Smoove",
+    song: "Diary Of a Mad Man",
+},
+{
+    src: "https://files.catbox.moe/8tz0vs.mp3",
+    artist: "Baby Smoove",
+    song: "Diary Of a Mad Man"
 }
 ];
 
